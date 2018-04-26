@@ -1,0 +1,40 @@
+{
+  "name": "img-mappy",
+  "version": "0.1.1",
+  "description": "Simple GUI to create HTML image map coordinates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EunDii/imgMappy.git"
+  },
+  "keywords": [
+    "html",
+    "image",
+    "javascript",
+    "imagemap"
+  ],
+  "author": {
+    "name": "Eunji Cho",
+    "email": "eundii92@naver.com",
+    "url": "https://github.com/eundii/"
+  },
+  "contributors": [
+    {
+      "name": "Seula Lee",
+      "email": "uouo33@naver.com",
+      "url": "https://github.com/yami03"
+    }, {
+      "name": "Eunji Cho",
+      "email": "eundii92@naver.com",
+      "url": "https://github.com/findawayer"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eundii/imgMappy/issues"
+  },
+  "homepage": "https://github.com/eundii/imgMappy#readme"
+}
