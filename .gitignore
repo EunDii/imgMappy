@@ -1,0 +1,8 @@
+# 아래 파일은 커밋 대상에서 제외합니다.
+
+# 폴더
+node_modules
+sandbox
+
+# 파일
+*.zip
