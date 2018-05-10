@@ -1,0 +1,179 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+/*style*/
+html,
+body{
+  height:100%;
+  font-family: 'Nanum Gothic';
+}
+.wrap{
+  position:relative;
+  min-height:100%;
+  background-image:linear-gradient(to bottom right, #E1BEE7, #B2EBF2);
+  box-sizing:border-box;
+  padding-bottom:50px;
+  
+}
+.wrap:after{
+  content:'';
+  display:block;
+  width:300px;
+  height:210px;
+  background:url(bg.png) no-repeat;
+  position:fixed;
+  right:0;
+  bottom:50px;
+}
+.header-logo{
+  text-align:center;
+  padding:50px 0 25px;
+}
+.header-logo strong{
+  display:inline-block;  
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  box-sizing:border-box; 
+  font-size: 80px;
+  font-family: 'Lobster';
+  color:#fff;
+}
+
+.header-right{
+  text-align:center;
+  padding-top:47px;
+  background:url(rainbow.png) no-repeat center top;
+}
+.header-nav-menu{
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+}
+.content .content-sizer{
+  color:#fff;
+  text-align:center;
+}
+.upload-button {
+  display:inline-block;
+  width:800px;
+  padding:3px 0;
+  border:2px solid #a764ed;
+  border-radius:5px;
+  font-family: 'Lobster';
+  font-size:20px;
+  color:#9e54ed;
+  cursor:pointer;
+  margin:8px 0 0;
+ }
+
+.content .output{
+  width:800px;
+  margin:0 auto;
+  background:#fff;
+  color:#df67f4;
+  padding:15px 0;
+}
+
+.preview{margin-top:10px;}
+
+.footer{
+  position:absolute;
+  bottom:10px;
+  text-align:center;
+  left:0;right:0;
+
+}
+.footer-sizer{display:inline-block;padding-left:44px;background:url(star.png) no-repeat left center / auto 100%}
+.footer .contributors li{
+  display:inline-block;
+}
+.footer .contributors a{
+  color:#8700fc;
+  text-decoration:none;
+}
+.footer .footer-license{
+  color:#7c21dd;
+}
