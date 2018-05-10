@@ -25,97 +25,97 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- 스타일 -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="header-sizer">
-            <div class="header-left">
-                <div class="header-logo">
-                    <strong>img-mappy</strong>
+    <div class="wrap">
+        <header class="header">
+            <div class="header-sizer">
+                <div class="header-left">
+                    <div class="header-logo">
+                        <strong>Img-Mappy</strong>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="header-nav">
+                        <li class="header-nav-item">
+                            <a class="header-nav-menu" href="#">Let me introduce myself.</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a class="header-nav-menu" href="#">GitHub</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="header-right">
-                <ul class="header-nav">
-                    <li class="header-nav-item">
-                        <a class="header-nav-menu" href="#">소개</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-menu" href="#">GitHub</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    
-    <main class="content">
-        <div class="content-sizer">
+        </header>
+        
+        <main class="content">
+            <div class="content-sizer">
 
-            <h1 class="content-title">
-                이미지 맵 생성 인터페이스
-            </h1> 
-            <p class="content-desc">
-                이미지를 업로드해 주세요.
-            </p>
-            
-            <div class="section upload">
-                <!-- 숨겨진 input[type=file] -->
-                <input type="file" id="upload" accept=".jpg, .jpeg, .png" hidden>
-                <!-- 업로드 버튼 -->
-                <label for="upload" class="upload-button">
-                    이미지 올리기
-                </label>
-                <!-- 드래그 & 드랍 영역 -->
-                <div class="upload-dropzone"></div>
-            </div>
+                <h1 class="content-title">
+                    이미지 맵 생성 인터페이스
+                </h1> 
+                <p class="content-desc">
+                    이미지를 업로드해 주세요.
+                </p>
+                
+                <div class="section preview">
+                    <!-- 업로드된 이미지 미리보기 -->
+                    <div class="preview-frame">
+                        <!-- <img src="http://gi.esmplus.com/innisfreea/innisfree/201805/gmarket_big_prd.jpg"> -->
+                    </div>
+                </div>
 
-            <div class="section preview">
-                <!-- 업로드된 이미지 미리보기 -->
-                <div class="preview-frame">
-                    <!-- <img src=""> -->
+                <div class="section upload">
+                    <!-- 숨겨진 input[type=file] -->
+                    <input type="file" id="upload" accept=".jpg, .jpeg, .png" hidden>
+                    <!-- 업로드 버튼 -->
+                    <label for="upload" class="upload-button">
+                        upload
+                    </label>
+                    <!-- 드래그 & 드랍 영역 -->
+                    <div class="upload-dropzone"></div>
+                </div>
+
+                
+                <div class="section output">
+                    <pre class="output-code">
+&lt;img src=&quot;planets.gif&quot; width=&quot;145&quot; height=&quot;126&quot; alt=&quot;Planets&quot; usemap=&quot;#planetmap&quot;&gt;
+&lt;map name=&quot;planetmap&quot;&gt;
+&lt;area shape=&quot;rect&quot; coords=&quot;0,0,82,126&quot; href=&quot;sun.htm&quot; alt=&quot;Sun&quot;&gt;
+&lt;area shape=&quot;circle&quot; coords=&quot;90,58,3&quot; href=&quot;mercur.htm&quot; alt=&quot;Mercury&quot;&gt;
+&lt;area shape=&quot;circle&quot; coords=&quot;124,58,8&quot; href=&quot;venus.htm&quot; alt=&quot;Venus&quot;&gt;
+&lt;/map&gt;</pre>
                 </div>
             </div>
-            
-            <div class="section output">
-                <pre class="output-code">
-                    &lt;img src=&quot;planets.gif&quot; width=&quot;145&quot; height=&quot;126&quot; alt=&quot;Planets&quot; usemap=&quot;#planetmap&quot;&gt;
-                    &lt;map name=&quot;planetmap&quot;&gt;
-                        &lt;area shape=&quot;rect&quot; coords=&quot;0,0,82,126&quot; href=&quot;sun.htm&quot; alt=&quot;Sun&quot;&gt;
-                        &lt;area shape=&quot;circle&quot; coords=&quot;90,58,3&quot; href=&quot;mercur.htm&quot; alt=&quot;Mercury&quot;&gt;
-                        &lt;area shape=&quot;circle&quot; coords=&quot;124,58,8&quot; href=&quot;venus.htm&quot; alt=&quot;Venus&quot;&gt;
-                    &lt;/map&gt;
-                </pre>
-            </div>
-        </div>
-    </main>
+        </main>
 
-    <footer class="footer">
-        <div class="footer-sizer">
-            <div class="footer-contribs">
-                <ul class="contributors">
-                    <li>
-                        <a href="https://github.com/eundii">@eundii</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/yami03">@yami03</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/findawayer">@findawayer</a>
-                    </li>
-                </ul>
+        <footer class="footer">
+            <div class="footer-sizer">
+                <div class="footer-contribs">
+                    <ul class="contributors">
+                        <li>
+                            <a href="https://github.com/eundii">@eundii</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/yami03">@yami03</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/findawayer">@findawayer</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-license">
+                    <p>img-mappy, MIT License.</p>
+                </div>
             </div>
-            <div class="footer-license">
-                <p>img-mappy, MIT License.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- 스크립트 -->
-    <script></script>
-
+        </footer>
+    </div>
+            <!-- 스크립트 -->
+            <script></script>
 </body>
 </html>
